@@ -17,6 +17,7 @@ if test $status -ne 0
 then
 	echo "Installing Python 3.10..."
 	apt-get install python3.10 -y
+    sudo apt install python3-pip
 
     # sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev libgdbm-dev libnss3-dev libedit-dev libc6-dev
     # wget https://www.python.org/ftp/python/3.6.15/Python-3.6.15.tgz
